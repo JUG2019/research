@@ -32,5 +32,5 @@ for(subd in subdirs){
   lista=c(lista,as.vector(rbind(m,d,sm,kr,m5)))# lista 
 }
 X104=matrix(lista,nrow=length(subdirs),byrow=TRUE)
-write(t(X104), file = "c:/datos/"d:/ugarte/datos/datos npls/datanplsb.csv", ncolumns=2600,append=FALSE)
+write(t(X104), file = "d:/ugarte/datos/datos npls/datanplsb.csv", ncolumns=2600,append=FALSE)
 
