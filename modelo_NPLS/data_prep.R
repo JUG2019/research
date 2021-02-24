@@ -31,6 +31,6 @@ for(subd in subdirs){
   #crear matriz2, filas:características, col=long de onda
   lista=c(lista,as.vector(rbind(m,d,sm,kr,m5)))# lista 
 }
-X92=matrix(lista,nrow=length(subdirs),byrow=TRUE)
+X104=matrix(lista,nrow=length(subdirs),byrow=TRUE)
 write(t(X104), file = "c:/datos/"d:/ugarte/datos/datos npls/datanplsb.csv", ncolumns=2600,append=FALSE)
 
